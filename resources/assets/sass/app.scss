@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import "~font-awesome/scss/font-awesome.scss";
+@import "variables";
+
+.main-wrapper {
+    .header {
+        position: relative;
+
+        background: linear-gradient(to left, #16222A, #3a6073);
+        background-size: cover;
+        height: 25em;
+        width: 100vw;
+        box-shadow: inset -1px -3px 5px rgba(0, 0, 0, 0.5), inset 1px 3px 5px rgba(0, 0, 0, 0.5);
+
+        h1 {
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3em;
+            text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5), -1px -3px 5px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
